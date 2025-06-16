@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <OutputType>Library</OutputType>
+
+        <LangVersion>12.0</LangVersion>
+        <Platforms>AnyCPU</Platforms>
+        <Nullable>enable</Nullable>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+        <AssemblyName>SCPReplace</AssemblyName>
+        <RootNamespace>SCPReplace</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Assembly-CSharp" HintPath="$(SL_REFERENCES)/Assembly-CSharp.dll" />
+      <Reference Include="LabApi" HintPath="$(LABAPI_DLL_PATH)" />
+    </ItemGroup>
+</Project>
